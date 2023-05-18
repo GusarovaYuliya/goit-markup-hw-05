@@ -36,13 +36,25 @@
         </address>
         </div>
     </header>
+    <!-- ---------------------------HERO---------------------------------- -->
+
     <main>
         <section class="hero">
             <div class="container hero-container">
             <h1 class="hero-list">Effective Solutions for Your Business</h1>
-            <button type="button" class="hero-btn">Order Service</button>
+            <button data-modal-open type="button" class="hero-btn">Order Service</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button data-modal-close type="button" class="close-modal-window">
+                        <svg class="close-modal-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-black"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
             </div>
         </section>
+        <!-- -----------------------------------FIRST-SECTION-------------------------------- -->
         <section class="section">
             <div class="container">
                 <h2 hidden class="title-features">Features</h2>
@@ -94,6 +106,7 @@
             </ul>
             </div>
         </section>
+        <!-- -------------------------------SECOND-SECTION---------------------------------------------- -->
         <section class="work-section">
             <div class="container about-container">
             <h2 class="about-title">What Are We Doing</h2>
@@ -372,6 +385,10 @@
         </div>
         </div>
     </footer>
+
+
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
 
