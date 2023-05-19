@@ -304,7 +304,7 @@ img {
   border-radius: 50%;
 }
 
-is-hidden {
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
