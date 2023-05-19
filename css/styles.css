@@ -104,6 +104,7 @@ img {
 .color-contact-second:hover,
 .color-contact-second:focus {
   color: #404BBF;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list {
@@ -574,8 +575,7 @@ border-radius: 0px 0px 4px 4px;
 .client-sotial-link:focus {
   border-color: #404BBF;
   color: #404BBF;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------------FOOTER -----------------------*/
